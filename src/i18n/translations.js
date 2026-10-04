@@ -52,8 +52,10 @@ export const translations = {
     footer: 'Anonim · Pa login · Me respekt',
     advocateLink: 'Hyrje avokati',
     advocateTitle: 'Paneli i avokatit',
-    advocatePassword: 'Fjalëkalimi',
+    advocatePassword: 'Password',
     advocateLogin: 'Hyr',
+    advocateLoginHint: 'Shtypni Ctrl+Shift+A për të hapur këtë panel',
+    advocateLoginLoading: 'Duke hyrë...',
     advocateLogout: 'Dil',
     advocateLoginError: 'Fjalëkalim i gabuar',
     advocateUnread: 'E palexuar',
@@ -125,6 +127,8 @@ export const translations = {
     advocateTitle: 'Advocate dashboard',
     advocatePassword: 'Password',
     advocateLogin: 'Log in',
+    advocateLoginHint: 'Press Ctrl+Shift+A to open this panel',
+    advocateLoginLoading: 'Signing in...',
     advocateLogout: 'Log out',
     advocateLoginError: 'Wrong password',
     advocateUnread: 'Unread',
@@ -144,15 +148,15 @@ export const translations = {
 };
 
 export const CATEGORY_STYLES = {
-  ngacmova: 'from-rose-100 to-pink-50 border-rose-200/80 text-rose-900',
-  heshta: 'from-amber-100 to-orange-50 border-amber-200/80 text-amber-950',
-  'pashë': 'from-sky-100 to-cyan-50 border-sky-200/80 text-sky-950',
-  ide: 'from-violet-100 to-purple-50 border-violet-200/80 text-violet-950',
+  ngacmova: 'bg-rose-50 border-rose-200 text-rose-900',
+  heshta: 'bg-amber-50 border-amber-200 text-amber-950',
+  'pashë': 'bg-sky-50 border-sky-200 text-sky-950',
+  ide: 'bg-blue-50 border-blue-200 text-blue-950',
 };
 
 export const CATEGORY_CHIP = {
-  ngacmova: 'bg-rose-200/80 text-rose-900 ring-rose-300',
-  heshta: 'bg-amber-200/80 text-amber-950 ring-amber-300',
-  'pashë': 'bg-sky-200/80 text-sky-950 ring-sky-300',
-  ide: 'bg-violet-200/80 text-violet-950 ring-violet-300',
+  ngacmova: 'bg-rose-100 text-rose-900 ring-rose-300',
+  heshta: 'bg-amber-100 text-amber-950 ring-amber-300',
+  'pashë': 'bg-sky-100 text-sky-950 ring-sky-300',
+  ide: 'bg-blue-100 text-blue-950 ring-blue-300',
 };
